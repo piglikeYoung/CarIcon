@@ -14,6 +14,9 @@
 		7DBD33EE1AA4077C000F3423 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD33ED1AA4077C000F3423 /* Images.xcassets */; };
 		7DBD33F11AA4077C000F3423 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD33EF1AA4077C000F3423 /* LaunchScreen.xib */; };
 		7DBD33FD1AA4077C000F3423 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD33FC1AA4077C000F3423 /* ____Tests.m */; };
+		7DBD340A1AA40929000F3423 /* JHCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD34091AA40929000F3423 /* JHCar.m */; };
+		7DBD340D1AA40A53000F3423 /* JHGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD340C1AA40A53000F3423 /* JHGroup.m */; };
+		7DBD340F1AA40EB8000F3423 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD340E1AA40EB8000F3423 /* cars_total.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		7DBD33F61AA4077C000F3423 /* 汽车展示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汽车展示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBD33FB1AA4077C000F3423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DBD33FC1AA4077C000F3423 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		7DBD34071AA4086B000F3423 /* JHCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCar.h; sourceTree = "<group>"; };
+		7DBD34081AA408B7000F3423 /* NJGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJGlobal.h; sourceTree = "<group>"; };
+		7DBD34091AA40929000F3423 /* JHCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCar.m; sourceTree = "<group>"; };
+		7DBD340B1AA40999000F3423 /* JHGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHGroup.h; sourceTree = "<group>"; };
+		7DBD340C1AA40A53000F3423 /* JHGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHGroup.m; sourceTree = "<group>"; };
+		7DBD340E1AA40EB8000F3423 /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,11 @@
 				7DBD33E71AA4077C000F3423 /* ViewController.h */,
 				7DBD33E81AA4077C000F3423 /* ViewController.m */,
 				7DBD33EA1AA4077C000F3423 /* Main.storyboard */,
+				7DBD34071AA4086B000F3423 /* JHCar.h */,
+				7DBD34091AA40929000F3423 /* JHCar.m */,
+				7DBD340B1AA40999000F3423 /* JHGroup.h */,
+				7DBD340C1AA40A53000F3423 /* JHGroup.m */,
+				7DBD34081AA408B7000F3423 /* NJGlobal.h */,
 				7DBD33ED1AA4077C000F3423 /* Images.xcassets */,
 				7DBD33EF1AA4077C000F3423 /* LaunchScreen.xib */,
 				7DBD33E01AA4077C000F3423 /* Supporting Files */,
@@ -96,6 +110,7 @@
 		7DBD33E01AA4077C000F3423 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7DBD340E1AA40EB8000F3423 /* cars_total.plist */,
 				7DBD33E11AA4077C000F3423 /* Info.plist */,
 				7DBD33E21AA4077C000F3423 /* main.m */,
 			);
@@ -201,6 +216,7 @@
 			files = (
 				7DBD33EC1AA4077C000F3423 /* Main.storyboard in Resources */,
 				7DBD33F11AA4077C000F3423 /* LaunchScreen.xib in Resources */,
+				7DBD340F1AA40EB8000F3423 /* cars_total.plist in Resources */,
 				7DBD33EE1AA4077C000F3423 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +237,8 @@
 			files = (
 				7DBD33E91AA4077C000F3423 /* ViewController.m in Sources */,
 				7DBD33E61AA4077C000F3423 /* AppDelegate.m in Sources */,
+				7DBD340D1AA40A53000F3423 /* JHGroup.m in Sources */,
+				7DBD340A1AA40929000F3423 /* JHCar.m in Sources */,
 				7DBD33E31AA4077C000F3423 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
